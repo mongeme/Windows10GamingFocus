@@ -101,10 +101,10 @@ $tweaks = @(
 	"DisableAutoplay",              # "EnableAutoplay",
 	"DisableAutorun",               # "EnableAutorun",
 	"DisableStorageSense",        # "EnableStorageSense",
-	"DisableDefragmentation",     # "EnableDefragmentation",
+	#"DisableDefragmentation",     # "EnableDefragmentation",
 	"DisableSuperfetch",          # "EnableSuperfetch",
 	"EnableIndexing",
-	"SetBIOSTimeUTC",         #"SetBIOSTimeUTC", #"SetBIOSTimeLocal",
+	#"SetBIOSTimeUTC",         #"SetBIOSTimeUTC", #"SetBIOSTimeLocal",
 	"DisableHibernation",		# "EnableHibernation",
 	"EnableSleepButton",		# "DisableSleepButton",         
 	"DisableSleepTimeout",        # "EnableSleepTimeout",
@@ -187,7 +187,7 @@ $tweaks = @(
 	#"UninstallMediaPlayer",         #"InstallMediaPlayer",
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
-	"UninstallLinuxSubsystem",      # "UninstallLinuxSubsystem",     #"InstallLinuxSubsystem",
+	#"UninstallLinuxSubsystem",      # "UninstallLinuxSubsystem",     "InstallLinuxSubsystem",
 	# "InstallHyperV",              # "UninstallHyperV",
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
@@ -3495,7 +3495,7 @@ cls
     "*MicrosoftPowerBIForWindows*"
     "*MicrosoftStickyNotes*"
     "*NetworkSpeedTest*"
-    "*OneNote*"
+    #"*OneNote*"
     "*Lens*"
     "*Sway*"
     "*OneConnect*"
@@ -3507,14 +3507,14 @@ cls
     "*Whiteboard*"
     "*WindowsAlarms*"
     "*WindowsFeedbackHub*"
-    "*WindowsMaps*"
+    #"*WindowsMaps*"
     "*WindowsPhone*"
     "*WindowsSoundRecorder*"
     "*MicrosoftOfficeHub*"
     "*MixedReality.Portal*"
     "*ScreenSketch*"
     "*MicrosoftOfficeHub*"
-    "*Microsoft.MSPaint*"
+    #"*Microsoft.MSPaint*"
     "Microsoft.549981C3F5F10"
     "*Advertising.Xaml*"
     "*SolitaireCollection*"
@@ -3539,7 +3539,7 @@ cls
         "*Speed Test*"
         "*Viber*"
         "*ACGMediaPlayer*"
-        "*Netflix*"
+        #"*Netflix*"
         "*OneCalendar*"
         "*LinkedInforWindows*"
         "*HiddenCityMysteryofShadows*"
