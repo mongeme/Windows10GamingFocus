@@ -96,7 +96,7 @@ $tweaks = @(
 	"DisableUpdateRestart",         # "EnableUpdateRestart",
 	"DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
-	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
+	#"DisableRemoteAssistance",      # "EnableRemoteAssistance",
 	"EnableRemoteDesktop",          # "DisableRemoteDesktop",
 	"DisableAutoplay",              # "EnableAutoplay",
 	"DisableAutorun",               # "EnableAutorun",
@@ -140,7 +140,7 @@ $tweaks = @(
 	"DisableStickyKeys",            # "EnableStickyKeys",
 	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
 	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
-	"DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
+	#"DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
 	"HideTaskbarSearch",
 	#"ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
 	"HideTaskView",                 # "ShowTaskView",
@@ -3540,7 +3540,7 @@ cls
         "*Viber*"
         "*ACGMediaPlayer*"
         #"*Netflix*"
-        "*OneCalendar*"
+        #"*OneCalendar*"
         "*LinkedInforWindows*"
         "*HiddenCityMysteryofShadows*"
         "*Hulu*"
@@ -3556,7 +3556,7 @@ cls
 	"*DrawboardPDF*"
 	"*Asphalt8Airborne*"
 	"*Keeper*"
-	"*SpotifyMusic*"
+	#"*SpotifyMusic*"
 	"*WinZipUniversal*"
 	"*XING*"           
         "*Advertising.Xaml*"
