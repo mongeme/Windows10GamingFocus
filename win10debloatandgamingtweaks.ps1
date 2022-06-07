@@ -3028,7 +3028,7 @@ Function NvidiaTweaks {
        $CheckGPU = wmic path win32_VideoController get name
        if(($CheckGPU -like "*GTX*") -or ($CheckGPU -like "*RTX*")) {
        Write-Output "NVIDIA GTX/RTX Card Detected! Applying Nvidia Power Tweaks..."
-       Invoke-WebRequest -Uri "https://downgit.github.io/#/home?url=https://github.com/mongeme/Windows10GamingFocus/blob/master/BaseProfile.nip" -OutFile "$Env:windir\system32\BaseProfile.nip" -ErrorAction SilentlyContinue
+       Invoke-WebRequest -Uri "https://raw.githubusercontent.com/mongeme/Windows10GamingFocus/master/BaseProfile.nip" -OutFile "$Env:windir\system32\BaseProfile.nip" -ErrorAction SilentlyContinue
        Invoke-WebRequest -Uri "https://git.io/JLP9n" -OutFile "$Env:windir\system32\nvidiaProfileInspector.exe" -ErrorAction SilentlyContinue
        Push-Location
        set-location "$Env:windir\system32\"
