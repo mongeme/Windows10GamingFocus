@@ -9,7 +9,7 @@
 "IsExpedited"=dword:00000000
 "LastToastAction"=dword:00000000
 "UxOption"=dword:00000000
-"InsiderProgramEnabled"=dword:00000000
+"InsiderProgramEnabled"=dword:00000001
 "SmartActiveHoursSuggestionState"=dword:00000000
 "SmartActiveHoursTimestamp"=hex(b):33,fb,12,0e,bf,a5,d6,01
 "BranchReadinessLevel"=dword:00000002
