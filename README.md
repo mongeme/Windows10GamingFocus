@@ -280,15 +280,15 @@ Option to Enable & Install Or Disable & Uninstall Microsoft OneDrive
 
 Simply Run cmd (Command Prompt) as Administrator and paste the following!
 ```
-powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('http://tweaks.daddymadu.gg')"
+powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('http://tweaks.madu.gg')"
 ```
 if error then use the following!
 ```
-powershell -NoProfile -ExecutionPolicy unrestricted -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; &iex(New-Object Net.WebClient).DownloadString('http://tweaks.daddymadu.gg')"
+powershell -NoProfile -ExecutionPolicy unrestricted -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; &iex(New-Object Net.WebClient).DownloadString('http://tweaks.madu.gg')"
 ```
 Or Run Powershell As Administrator and paste the following!
 ```
-iex(New-Object Net.WebClient).DownloadString('http://tweaks.daddymadu.gg')
+iex(New-Object Net.WebClient).DownloadString('http://tweaks.madu.gg')
 ```
 To enable Action Center, put the following into Powershell run As Administrator!
 ```
